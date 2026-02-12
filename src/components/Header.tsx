@@ -7,33 +7,33 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-bold">
-              <span className="text-white">Fair</span>
-              <span className="text-cyan-400">Intellect</span>
-            </div>
-            <div className="ml-2 text-xs text-cyan-400 font-medium">
-              TECHNOLOGIES
-            </div>
+            <a href="https://www.fairintech.com" target="_blank" rel="noopener noreferrer">
+              <img
+                src="/fairintellect-logo.png"
+                alt="FairIntellect Technologies"
+                className="h-20 w-auto"
+              />
+            </a>
           </div>
 
           {/* Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a href="#" className="text-gray-300 hover:text-white transition-colors">
+            <a href="https://www.fairintech.com/" className="text-gray-300 hover:text-white transition-colors">
               Home
             </a>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors">
+            <a href="https://www.fairintech.com/solutions" className="text-gray-300 hover:text-white transition-colors">
               Solutions
             </a>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors">
+            <a href="https://www.fairintech.com/#services" className="text-gray-300 hover:text-white transition-colors">
               Services
             </a>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors">
+            <a href="https://www.fairintech.com/about" className="text-gray-300 hover:text-white transition-colors">
               About
             </a>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors">
+            <a href="https://www.fairintech.com/#contact" className="text-gray-300 hover:text-white transition-colors">
               Contact
             </a>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors">
+            <a href="https://www.fairintech.com/faq" className="text-gray-300 hover:text-white transition-colors">
               FAQ
             </a>
           </nav>
