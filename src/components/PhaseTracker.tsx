@@ -85,9 +85,14 @@ const PhaseTracker: React.FC<PhaseTrackerProps> = ({ currentPhase }) => {
                 >
                   {phase.name} {phase.emoji}
                 </div>
-                {isActive && (
+                {isActive && phase.id < 6 && (
                   <div className="text-sm text-cyan-300 mt-1 animate-pulse">
                     Currently in progress...
+                  </div>
+                )}
+                {isActive && phase.id === 6 && (
+                  <div className="text-sm text-green-400 mt-1">
+                    Project complete!
                   </div>
                 )}
                 {isCompleted && (
