@@ -11,7 +11,7 @@ const Header: React.FC = () => {
               <img
                 src="/fairintellect-logo.png"
                 alt="FairIntellect Technologies"
-                className="h-20 w-auto"
+                className="h-20 w-auto mix-blend-screen"
               />
             </a>
           </div>
